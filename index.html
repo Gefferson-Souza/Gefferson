@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gefferson Teodoro de Souza</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="banner">
+            <p>Olá, eu sou o Gefferson</p>
+            <h1>DESENVOLVEDOR <br>FRONT-END
+                <i class="fa-brands fa-square-js" style="--i: 1.5s; --cor:#ffee4a "></i>
+                <i class="fa-brands fa-html5" style="--i: 2s; --cor:#e03e36 "></i>
+                <i class="fa-brands fa-sass" style="--i: 2.5s; --cor:#cd679a"></i>
+            </h1>
+            <p class="bem-vindo">Bem-vindo ao meu website pessoal!</p>
+        </section>
+
+        <section id="projetos">
+            <h2>PROJETOS</h2>
+            <ul>
+                <li>
+                    <h3>Emestone</h3>
+                    <figure>
+                        <img src="projeto1.png" alt="Projeto 1, Emestone" class="smartphone" />
+                        <figcaption>
+                            <h4>Tecnologias</h4>
+                            <ul class="tecnologias">
+                                <li style="--cor:#e03e36"><i class="fa-brands fa-html5"></i>HTML5</li>
+                                <li style="--cor:#cd679a"><i class="fa-brands fa-sass"></i>SASS</li>
+                                <li style="--cor:#f0d800"><i class="fa-brands fa-square-js" style="   background: linear-gradient(
+                                        180deg,
+                                        rgba(255, 255, 255, 0) 20%,
+                                        #1a1a1a 50%,
+                                        #000000 85%,
+                                        rgba(255, 255, 255, 0) 90%
+                                      );"></i>JAVASCRIPT</li>
+                            </ul>
+                            <a href="https://emestone.com.br" target="_blank" rel="noopener">https://emestone.com.br</a>
+                        </figcaption>
+                    </figure>
+                    <div class="div-tablet">
+                        <figure>
+                            <img src="projeto1-tablet.png" alt="Projeto 1, Emestone" class="tablet" />
+                            <div class="led">
+                            </div>
+                        </figure>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <hr>
+        <section class="" id="contato">
+            <article class="skills">
+                <i class="fa-brands fa-react" style="color:#61DBFB"></i>
+                <i class="fa-brands fa-square-js" style="color:#ffee4a "></i>
+                <i class="fa-brands fa-html5" style="color:#e03e36"></i>
+                <i class="fa-brands fa-css3" style="color:#264de4"></i>
+                <i class="fa-brands fa-sass" style=" color:#cd679a"></i>
+            </article>
+            <article class="options">
+                <button data-state="active" onclick="render(event)" value="con" style="--cor: #000;--corFundo:white" >Contato</button>
+
+                <button data-state="initial" onclick="render(event)" value="tec" style="--cor: #000000;--corFundo: white">Tecnologias</button>
+
+                <button data-state="initial" onclick="render(event)" value="sobre" style="--cor: #000;--corFundo:white">Sobre Mim</button>
+            </article>
+            <aside class="aside disable">
+                <h2>
+                    DESENVOLVEDOR FRONT-END
+                </h2>
+            </aside>
+            <div class="img disable">
+                <img src="wave-haikei.svg" alt="Foto de perfil" />
+            </div>
+            <article class="sobre disable">
+                <h2>Sobre Mim</h2>
+                <p>Olá, eu sou o Gefferson, um desenvolvedor front-end apaixonado por criar experiências digitais
+                    incríveis. Com habilidades sólidas em React, JavaScript, Sass, CSS3 e HTML5, estou sempre em busca
+                    de desafios emocionantes para transformar ideias em realidade. Através da combinação de design e
+                    codificação, meu objetivo é construir interfaces elegantes, responsivas e intuitivas que
+                    proporcionem uma experiência de usuário excepcional. Estou constantemente aprendendo e me
+                    atualizando para acompanhar as últimas tendências e melhores práticas da indústria. Se você está em
+                    busca de um desenvolvedor front-end apaixonado por sua profissão, estou aqui para colaborar em
+                    projetos inovadores e agregar valor às suas ideias. Vamos trabalhar juntos para criar soluções
+                    digitais impactantes e memoráveis.</p>
+            </article>
+            <article class="con">
+                <h2>Contato</h2>
+                <ul>
+                    <li><i class="fa-brands fa-square-whatsapp" style="color: #25d366; --color: #25d366;"></i>Telefone:
+                        <a rel="noopener" target="_blank" href="https://wa.me/5562994357455">(62) 9 9435-7455</a>
+                    </li>
+                    <li><i class="fa-brands fa-linkedin" style="color:#0e76a8; --color:#0e76a8;"></i>LinkedIn: <a
+                            href="https://www.linkedin.com/in/gefferson-teodoro-de-souza-322070269" target="_blank"
+                            rel="noopener">Gefferson T. Souza</a></li>
+                    <li><i class="fa-brands fa-github" style="color:#181717; --color: #181717; "></i>GitHub: <a
+                            href="https://github.com/Gefferson-Souza/" target="_blank"
+                            rel="noopener">Gefferson-Souza</a></li>
+                    <li>
+                        <i class="fa  fa-envelope" style="color:#d44638; "></i>E-mail: <span class="email"  data-state='initial' value="geffersonteodorodesouza@gmail.com">geffer...@gmail.com</span>
+                    </li>
+                </ul>
+            </article>
+            <article class="tec disable">
+                <i class="order-1 fa-brands fa-react" style="--i:1s;--cor:#61DBFB;--nome:'REACT'"></i>
+                <i class="order-2 fa-brands fa-square-js" style="--i:2s;--cor:#ffee4a ;--nome:'JAVASCRIPT'"></i>
+                <i class="order-3 fa-brands fa-html5" style="--i:3s;--cor:#e03e36;--nome:'HTML5'"></i>
+                <i class="order-4 fa-brands fa-css3" style="--i:4s;--cor:#264de4;--nome:'CSS3'"></i>
+                <i class="order-5 fa-brands fa-sass" style=" --i:5s;--cor:#cd679a;--nome:'SASS'"></i>
+            </article>
+            <article class="triangle">
+                <div class="">
+
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2023 Gefferson T. Souza. Todos os direitos reservados.</small>
+    </footer>
+</body>
+
+</html>
